@@ -1,0 +1,11 @@
+name: BowTrails
+main: com.nktfh100.BowTrails.main.BowTrails
+author: nktfh100
+version: 1.0
+api-version: 1.16
+
+commands:
+   bowtrails:
+      description: Main bow trails command
+  
+ 

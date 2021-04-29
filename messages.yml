@@ -1,0 +1,14 @@
+# Made by nktfh100
+prefix: ''
+
+# Admim permission: bowtrails.admin
+
+# %prefix% Plugin's prefix
+# /n for new lines
+msgs:
+   # %value% Selected trailer
+   trail-selected: "&aSelected trail: %value%"
+   trail-doesnt-exist: "&cThis trail doesn't exist!"
+   cant-select-trail: "&cYou can't select this trail!"
+   reload: "&aReloaded all the configs!"
+   no-permission: "&cYou don't have permission to do that!"

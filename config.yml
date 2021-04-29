@@ -1,0 +1,43 @@
+
+# Particles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# Entities: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Entity.html
+
+# Trails types: NORMAL, ENTITY
+# NORMAL = Normal particle effect
+# ENTITY = Entity trail
+
+# normal_exmaple:
+#    type: NORMAL
+#    effect: HEART
+#    count: 1
+#    permission: ""
+#    offset: 0.1
+#    color: 255,255,255 # RGB (only if effect is REDSTONE)
+# 
+# entity_exmaple:
+#    type: ENTITY
+#    entity: ZOMBIE
+#    permission: ""
+
+trails:
+   hearts:
+      type: NORMAL
+      effect: HEART
+      count: 1
+      permission: ""
+      offset: 0.1
+   sheep:
+      type: ENTITY
+      entity: SHEEP
+      permission: ""
+   redstone:
+      type: NORMAL
+      effect: REDSTONE
+      offset: 0
+      count: 1
+      color: 255,0,0
+      permission: ""
+   donor:
+      type: ENTITY
+      entity: BEE
+      permission: "bowtrails.trail.donor"
